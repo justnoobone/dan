@@ -1,0 +1,65 @@
+#登录界面
+账号:
+  By: 'xpath'
+  element: '//*[@id="root"]/div/div[1]/div[2]/div/div/form/div[2]/input'
+密码:
+  By: 'xpath'
+  element: '//*[@id="root"]/div/div[1]/div[2]/div/div/form/div[3]/input'
+登录按钮:
+  By: 'xpath'
+  element: '//*[@id="root"]/div/div[1]/div[2]/div/div/form/div[5]/button'
+验证成功:
+  By: 'xpath'
+  element: "//*[contains(text(), '验证成功')]"
+
+#创建
+设置中心:
+  By: 'xpath'
+  element: "//div[contains(@class,'left-info')]//span[contains(text(),'设置中心')]"
+合作单位:
+  By: 'xpath'
+  element: '//li[contains(text(),"合作单位")]'
+创建合作单位:
+  By: 'xpath'
+  element: "//div[contains(@class,'create_span')]//button[contains(@type,'button')]"
+机构码:
+  By: 'xpath'
+  element: "//input[@id='orgCodeInput']"
+合作单位代码:
+  By: 'xpath'
+  element: "//input[@id='cooperateCodeInput']"
+合作单位名称:
+  By: 'xpath'
+  element: "//input[@id='cooperateNameInput']"
+合作单位类型:
+  By: 'xpath'
+  element: "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/div/div[4]/div[2]/div/div/div"
+推修联系人:
+  By: 'xpath'
+  element: "//input[@id='reputerInput']"
+联系电话:
+  By: 'xpath'
+  element: "//input[@id='cellPhoneInput']"
+详细地址:
+  By: 'xpath'
+  element: "//input[@id='addressInput']"
+协赔员:
+  By: 'xpath'
+  element: "//input[@id='xpManInput']"
+客服组:
+  By: 'xpath'
+  element: "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/div/div[9]/div[2]/div/div/div/div[1]"
+
+创建:
+  By: 'xpath'
+  element: "//button[@class='ant-btn left_button ant-btn-primary']"
+
+阿萨德:
+  By: 'xpath'
+  element: ""
+啊:
+  By: 'xpath'
+  element: ""
+哦:
+  By: 'xpath'
+  element: ""
