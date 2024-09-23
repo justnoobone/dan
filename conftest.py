@@ -9,7 +9,7 @@ from selenium import webdriver
 def driver():
     # 实例化VcrmFillWebDriver对象
     driver = VcrmFillWebDriver()
-    driver.get('https://yds-dzh-prod.ikandy.cn/txtechnology/login')
+    driver.get('***')
 
     yield driver
     # 清理操作，关闭浏览器或者进行其他清理工作

@@ -3,8 +3,8 @@ from selenium.webdriver import Keys, ActionChains
 
 
 def login(driver):
-    driver.find_element('visibility','账号').send_keys('ydjg-sz')
-    driver.find_element('visibility', '密码').send_keys("Tx123456")
+    driver.find_element('visibility','账号').send_keys('***')
+    driver.find_element('visibility', '密码').send_keys("***")
     appear = driver.find_element('', '验证成功')
 
     while appear:
